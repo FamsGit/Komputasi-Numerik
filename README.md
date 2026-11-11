@@ -1,82 +1,153 @@
-# KOMPUTASI NUMERIK
+# Numerical Computation | Komputasi Numerik
 
-**Tugas Ujian Tengah Semester (UTS)** — Teknik Informatika  
-**Nama:** Muhammad Fahmi Amrulloh  
-**NIM:** 202511420045
+<p align="center">
+  <strong>Numerical Methods Implementation Using Python</strong>
+  <br>
+  A collection of numerical algorithms developed as part of an academic project in Informatics Engineering.
+</p>
 
-Repository ini berisi dokumentasi algoritma dan implementasi Python untuk dua materi komputasi numerik. Notebook dirancang agar dapat dijalankan secara berurutan maupun per bagian (cell) di Google Colab.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google-Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" />
+  <img src="https://img.shields.io/badge/Status-Academic%20Project-2563EB?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Repository-Public-16A34A?style=for-the-badge&logo=github&logoColor=white" />
+</p>
 
-## Daftar proyek
+---
 
-### 1. Sistem Persamaan Linear (SPL) tiga variabel — Eliminasi Gauss
+## Overview
 
-- Dokumen algoritma: [`02-Sistem-Persamaan-Linear/algoritma_spl.md`](02-Sistem-Persamaan-Linear/algoritma_spl.md)
-- Notebook terdokumentasi: [`02-Sistem-Persamaan-Linear/SPL_Eliminasi_Gauss_Revisi.ipynb`](02-Sistem-Persamaan-Linear/SPL_Eliminasi_Gauss_Revisi.ipynb)
-- [Buka notebook SPL di Google Colab](https://colab.research.google.com/github/FamsGit/Komputasi-Numerik/blob/main/02-Sistem-Persamaan-Linear/SPL_Eliminasi_Gauss_Revisi.ipynb)
+**Komputasi Numerik** merupakan proyek akademik yang membahas penerapan metode numerik untuk menyelesaikan permasalahan matematika menggunakan bahasa pemrograman Python.
 
-Metode yang dipakai adalah Eliminasi Gauss dengan *partial pivoting*, dilanjutkan substitusi mundur. Program memeriksa ukuran matriks, pivot, dan residual hasil perhitungan.
+Repository ini dikembangkan sebagai dokumentasi pembelajaran, implementasi algoritma, serta eksplorasi proses perhitungan numerik secara sistematis dan terstruktur.
 
-### 2. Persamaan nonlinear satu variabel — Bisection
+Setiap metode dilengkapi dengan dasar teori, algoritma penyelesaian, implementasi Python, penjelasan kode, dan hasil pengujian.
 
-- Dokumen algoritma: [`03-Metode-Bisection/algoritma_bisection.md`](03-Metode-Bisection/algoritma_bisection.md)
-- Notebook terdokumentasi: [`03-Metode-Bisection/Bisection_Nonlinear.ipynb`](03-Metode-Bisection/Bisection_Nonlinear.ipynb)
-- [Buka notebook Bisection di Google Colab](https://colab.research.google.com/github/FamsGit/Komputasi-Numerik/blob/main/03-Metode-Bisection/Bisection_Nonlinear.ipynb)
+## Project Modules
 
-**Catatan konsep:** Bisection klasik adalah metode pencarian akar untuk persamaan nonlinear kontinu dengan satu variabel. Metode ini bukan pemecah langsung sistem nonlinear multivariabel. Contoh pada notebook menggunakan fungsi satu variabel `f(x) = x³ + 2x − 7`; pastikan cakupan ini sesuai dengan arahan dosen.
+### 01. Sistem Persamaan Linear — Eliminasi Gauss
 
-## Struktur repository
+Implementasi metode Eliminasi Gauss dengan Partial Pivoting untuk menyelesaikan sistem persamaan linear tiga variabel.
+
+**Cakupan pembahasan:**
+- Representasi sistem persamaan dalam matriks augmented.
+- Pemilihan elemen pivot.
+- Pertukaran baris (row swapping).
+- Eliminasi elemen di bawah pivot.
+- Substitusi mundur (back substitution).
+- Verifikasi hasil perhitungan.
+
+**Contoh sistem persamaan:**
+
+\[
+\begin{aligned}
+4x+y-z&=3\\
+2x+5y+z&=15\\
+x-y+3z&=8
+\end{aligned}
+\]
+
+**Files:**
+- [Algoritma SPL](02-Sistem-Persamaan-Linear/algoritma_spl.md)
+- [Python Notebook — SPL](02-Sistem-Persamaan-Linear/SPL_Eliminasi_Gauss_Revisi.ipynb)
+
+### 02. Persamaan Nonlinear — Metode Bisection
+
+Implementasi metode Bisection untuk menentukan pendekatan akar persamaan nonlinear satu variabel.
+
+**Cakupan pembahasan:**
+- Pendefinisian fungsi nonlinear.
+- Penentuan interval awal.
+- Pemeriksaan perubahan tanda fungsi.
+- Perhitungan titik tengah interval.
+- Pembaruan interval pencarian.
+- Proses iterasi berdasarkan toleransi.
+- Evaluasi hasil pendekatan akar.
+
+**Contoh fungsi:**
+
+\[
+f(x)=x^3+2x-7
+\]
+
+**Files:**
+- [Algoritma Bisection](03-Metode-Bisection/algoritma_bisection.md)
+- [Python Notebook — Bisection](03-Metode-Bisection/Bisection_Nonlinear.ipynb)
+
+> Note: Metode Bisection standar digunakan untuk mencari akar persamaan nonlinear satu variabel. Metode ini tidak secara langsung menyelesaikan sistem nonlinear multivariabel.
+
+---
+
+## Repository Structure
 
 ```text
 Komputasi-Numerik/
+│
 ├── README.md
+│
 ├── 01-Identitas/
 │   └── tautan_akun.txt
+│
 ├── 02-Sistem-Persamaan-Linear/
 │   ├── algoritma_spl.md
 │   └── SPL_Eliminasi_Gauss_Revisi.ipynb
+│
 ├── 03-Metode-Bisection/
 │   ├── algoritma_bisection.md
 │   └── Bisection_Nonlinear.ipynb
+│
 ├── 04-Prompt-AI/
 │   └── prompt_ai.txt
+│
 └── 05-Video-Presentasi/
-    └── PETUNJUK_VIDEO.md
+    ├── penjelasan_spl.mp4
+    └── penjelasan_bisection.mp4
 ```
 
-## Identitas dan tautan
+## Technologies
 
-Tautan profil GitHub, LinkedIn, dan halaman Google Colab dicatat di [`01-Identitas/tautan_akun.txt`](01-Identitas/tautan_akun.txt). Google Colab menggunakan akun Google untuk proses masuk; tidak ada profil publik Colab yang setara dengan URL profil GitHub/LinkedIn.
+| Technology | Purpose |
+|---|---|
+| Python | Numerical algorithm implementation |
+| NumPy | Matrix and numerical operations |
+| Google Colab | Cloud-based Python execution |
+| GitHub | Version control and project documentation |
+| Markdown | Algorithm and technical documentation |
 
-## Cara menjalankan notebook
+## Learning Objectives
 
-1. Buka tautan Google Colab pada bagian proyek di atas, atau buka `https://colab.research.google.com/`.
-2. Pilih **File → Open notebook → GitHub**, lalu masukkan `FamsGit/Komputasi-Numerik`.
-3. Pilih notebook yang ingin dijalankan.
-4. Jalankan cell dari atas ke bawah dengan **Runtime → Run all**. Cell dapat dijalankan satu per satu setelah cell definisi fungsi dijalankan.
-5. Ubah koefisien, ruas kanan, fungsi, interval, atau toleransi pada cell input untuk mencoba kasus lain.
+Melalui proyek ini, pembelajaran difokuskan pada:
 
-Notebook memakai Python standar sehingga tidak memerlukan instalasi paket tambahan.
+1. Memahami konsep dasar komputasi numerik.
+2. Menerjemahkan permasalahan matematika menjadi algoritma.
+3. Mengimplementasikan metode numerik menggunakan Python.
+4. Menganalisis proses dan hasil perhitungan.
+5. Mengembangkan dokumentasi teknis dan pengelolaan proyek menggunakan GitHub.
 
-## Dokumentasi prompt AI
+## Project Information
 
-Prompt yang digunakan selama penyusunan tugas dicatat di [`04-Prompt-AI/prompt_ai.txt`](04-Prompt-AI/prompt_ai.txt). Catatan tersebut perlu diperbarui setiap kali ada prompt baru yang digunakan untuk tugas ini. Jangan mencatat prompt yang tidak benar-benar digunakan.
+| Information | Details |
+|---|---|
+| Student | Muhammad Fahmi Amrulloh |
+| Student ID | 202511420045 |
+| Study Program | Teknik Informatika |
+| Project | Komputasi Numerik |
+| Academic Year | 2026 |
 
-## Video presentasi
+## Documentation & Portfolio
 
-Folder [`05-Video-Presentasi/`](05-Video-Presentasi/) disiapkan untuk dua video MP4: penjelasan SPL dan penjelasan Bisection. Video akhir belum disertakan dalam paket ini karena bagian wajah, suara, dan narasi harus direkam sendiri oleh pemilik tugas. Ikuti spesifikasi di [`05-Video-Presentasi/PETUNJUK_VIDEO.md`](05-Video-Presentasi/PETUNJUK_VIDEO.md).
+- **GitHub Repository:** [FamsGit/Komputasi-Numerik](https://github.com/FamsGit/Komputasi-Numerik)
+- **LinkedIn:** [Muhammad Fahmi Amrulloh](https://www.linkedin.com/in/fahmi-amrul/)
+- **Google Colab:** Notebook tersedia melalui direktori proyek masing-masing.
 
-## Status kelengkapan
+## Disclaimer
 
-- [x] Repository dan identitas dasar
-- [x] Algoritma SPL tiga variabel
-- [x] Notebook Python SPL terdokumentasi
-- [x] Algoritma Bisection
-- [x] Notebook Python Bisection terdokumentasi
-- [x] Catatan prompt AI awal
-- [ ] Verifikasi notebook revisi di Google Colab setelah diunggah
-- [ ] Video penjelasan SPL (MP4, maksimal 5 menit)
-- [ ] Video penjelasan Bisection (MP4, maksimal 5 menit)
-- [ ] Pastikan link repository dicantumkan pada profil LinkedIn
-- [ ] Pemeriksaan akhir dan pengumpulan melalui Google Form
+This repository is developed for academic and educational purposes. The implementations are intended to demonstrate the fundamental concepts and practical application of numerical methods using Python.
 
-**Pembaruan:** tandai checklist setelah setiap item benar-benar selesai; jangan biarkan status `[x]` jika belum diverifikasi.
+---
+
+<p align="center">
+  <strong>LEARN • COMPUTE • ANALYZE • INNOVATE</strong>
+  <br>
+  <sub>Numerical Computation Project — Informatics Engineering</sub>
+</p>
