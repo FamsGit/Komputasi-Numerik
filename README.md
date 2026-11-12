@@ -39,13 +39,13 @@ Implementasi metode Eliminasi Gauss dengan Partial Pivoting untuk menyelesaikan 
 
 **Contoh sistem persamaan:**
 
-\[
+$$
 \begin{aligned}
-4x+y-z&=3\\
-2x+5y+z&=15\\
-x-y+3z&=8
+4x + y - z &= 3 \\
+2x + 5y + z &= 15 \\
+x - y + 3z &= 8
 \end{aligned}
-\]
+$$
 
 **Files:**
 - [Algoritma SPL](02-Sistem-Persamaan-Linear/algoritma_spl.md)
@@ -66,9 +66,9 @@ Implementasi metode Bisection untuk menentukan pendekatan akar persamaan nonline
 
 **Contoh fungsi:**
 
-\[
-f(x)=x^3+2x-7
-\]
+$$
+f(x) = x^3 + 2x - 7
+$$
 
 **Files:**
 - [Algoritma Bisection](03-Metode-Bisection/algoritma_bisection.md)
