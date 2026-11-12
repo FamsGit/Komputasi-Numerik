@@ -1,0 +1,14 @@
+IDENTITAS MAHASISWA
+Nama       : Muhammad Fahmi Amrulloh
+NIM        : 202511420045
+Program Studi: Teknik Informatika
+
+TAUTAN AKUN / PLATFORM
+GitHub     : https://github.com/FamsGit
+Repository : https://github.com/FamsGit/Komputasi-Numerik
+LinkedIn   : https://www.linkedin.com/in/fahmi-amrul/
+Google Colab: https://colab.research.google.com/
+
+Catatan:
+1. Google Colab menggunakan akun Google untuk login. Demi privasi, alamat email pribadi tidak dicantumkan di repository publik.
+2. Tautan di atas adalah tautan profil/platform. Tautan langsung ke notebook Colab berbasis GitHub tersedia di README.md.

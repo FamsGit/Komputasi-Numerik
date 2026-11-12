@@ -1,0 +1,43 @@
+DOKUMENTASI PROMPT AI — TUGAS UTS KOMPUTASI NUMERIK
+Nama: Muhammad Fahmi Amrulloh
+NIM: 202511420045
+
+PENTING
+File ini adalah catatan prompt yang benar-benar muncul dalam percakapan penyusunan tugas hingga versi awal repository ini. Tambahkan setiap prompt baru yang benar-benar dikirim kepada AI. Jangan mengklaim prompt yang tidak pernah digunakan.
+
+[01] PROMPT BIMBINGAN TUGAS (11 November 2026)
+Bantu bimbing aku mengerjakan tugas untuk UTS ini dong gpt
+
+Tugas 1:
+1 Buat akun Git Hub atas nama Anda sendiri dan buat Repository "Komputasi Numerik"
+2 Buat akun Google Colaboration Research atas nama Anda sendiri
+3 Buat akun LinkedIn atas nama Anda sendiri
+4 Simpan Link2 akun2 Anda tersebut pada file .txt dan simpan pada Repository "Komputasi Numerik" di Github
+5 Buat Algoritma Penyelesaian Sistem Persamaan Linear 3 variabel dan simpan pada Repository "Komputasi Numerik" di Github
+6 Buat kode Python pada Google Colab berdasarkan nomor 5, dan simpan pada Repository "Komputasi Numerik" di Github. Pastikan kode tertata dalam cell-cell sehingga bisa di Running pada tiap cell.
+7 Edit kode Python tersebut di Github dengan menambahkan keterangan detail penjelasan tiap baris kode atau cell.
+8 Nomor 5-7 Anda bisa meminta bantuan platform AI andalan masing2
+9 Simpan seluruh prompt AI yang Anda gunakan dalam sebuah file .txt dan simpan pada Repository "Komputasi Numerik" di Github
+10 Buat video penjelasan no. 5-8 dengan total durasi maksimal 5 menit : dengan wajah dan suara Anda sedang berbicara menjelaskan selama minimal 15 detik, sisanya gambar slide layar dan tampilan kode di Google Colab + suara penjelasan Anda tanpa menampilkan wajah.
+11 Simpan video dalam bentuk .mp4 dan simpan pada Repository "Komputasi Numerik" di Github
+12 Buat langkah yang sama mulai no.5-10 untuk Penyelesaian Sistem Persamaan Non Linear metode Bisection
+13 Simpan link Repository "Komputasi Numerik" di Github Anda pada akun LnkedIn Anda sebagai portofolio
+
+[02] PROMPT AUDIT DAN REVISI REPOSITORY (11 November 2026)
+"eh gpt dulu udh pernah buat ingat ga kamu, https://github.com/FamsGit/Komputasi-Numerik nih coba cek. Revisi jika ada yang salah, lalu tambah sesuai ketentuan dosen"
+
+[03] CATATAN PENGEMBANGAN
+Rancangan algoritma dan notebook dalam paket revisi ini disusun untuk memenuhi butir tugas di atas. Jika selama penyempurnaan ada prompt tambahan yang dikirim ke AI (misalnya untuk mengubah contoh kasus, memperbaiki kode, atau menyesuaikan format dosen), salin prompt tersebut ke file ini dengan tanggal dan tujuan penggunaannya.
+
+
+[04] PROMPT PEMERIKSAAN LINKEDIN (11 November 2026)
+"https://www.linkedin.com/in/fahmi-amrul/ kamu cek ini akun linkedin ku, beri tahu jika ada yang kurang aku lengkapi lagi"
+
+[05] PROMPT MOTO PROFESIONAL LINKEDIN (11 November 2026)
+"moto profesional isi apa"
+
+[06] PROMPT STATUS AKUN DAN LANGKAH SELANJUTNYA (11 November 2026)
+"Status akun saya untuk tugas UTS: GitHub sudah, Google/Colab sudah, LinkedIn sudah. Bimbing saya ke langkah berikutnya."
+
+Pembaruan berikutnya:
+Jika meminta AI mengubah algoritma, kode, atau dokumen, tambahkan prompt lengkap yang dikirim beserta tanggal dan file/komponen yang diubah. Jika prompt sangat panjang, simpan teks utuh atau lampirkan file sumbernya; jangan hanya menyimpan ringkasan.
