@@ -48,8 +48,8 @@ x - y + 3z &= 8
 $$
 
 **Files:**
-- [Algoritma SPL](02-Sistem-Persamaan-Linear/algoritma_spl.md)
-- [Python Notebook — SPL](02-Sistem-Persamaan-Linear/SPL_Eliminasi_Gauss_Revisi.ipynb)
+- [Algoritma SPL](02-SPL-Eliminasi-Gauss/algoritma_spl.md)
+- [Python Notebook — SPL](02-SPL-Eliminasi-Gauss/SPL_Eliminasi_Gauss.ipynb)
 
 ### 02. Persamaan Nonlinear — Metode Bisection
 
@@ -71,8 +71,8 @@ f(x) = x^3 + 2x - 7
 $$
 
 **Files:**
-- [Algoritma Bisection](03-Metode-Bisection/algoritma_bisection.md)
-- [Python Notebook — Bisection](03-Metode-Bisection/Bisection_Nonlinear.ipynb)
+- [Algoritma Bisection](03-SPNL-Bisection/algoritma_bisection.md)
+- [Python Notebook — Bisection](03-SPNL-Bisection/Bisection_Nonlinear.ipynb)
 
 > Note: Metode Bisection standar digunakan untuk mencari akar persamaan nonlinear satu variabel. Metode ini tidak secara langsung menyelesaikan sistem nonlinear multivariabel.
 
@@ -88,11 +88,11 @@ Komputasi-Numerik/
 ├── 01-Identitas/
 │   └── tautan_akun.txt
 │
-├── 02-Sistem-Persamaan-Linear/
+├── 02-SPL-Eliminasi-Gauss/
 │   ├── algoritma_spl.md
-│   └── SPL_Eliminasi_Gauss_Revisi.ipynb
+│   └── SPL_Eliminasi_Gauss.ipynb
 │
-├── 03-Metode-Bisection/
+├── 03-SPNL-Bisection/
 │   ├── algoritma_bisection.md
 │   └── Bisection_Nonlinear.ipynb
 │
