@@ -55,12 +55,7 @@ Metode Eliminasi Gauss dengan *Partial Pivoting* dilakukan melalui tahapan berik
 6. Memeriksa ketepatan hasil dengan menghitung residual menggunakan matriks dan vektor konstanta asli:
 
    $$r = A_{\text{asli}}x - b_{\text{asli}}$$
-7. Mengulangi proses eliminasi hingga terbentuk matriks segitiga atas.
-8. Menghitung nilai variabel dari baris terakhir menuju baris pertama melalui substitusi mundur.
-9. Memeriksa ketepatan hasil dengan menghitung residual menggunakan matriks dan vektor konstanta asli:
-
-   $$r = A_{\text{asli}}x - b_{\text{asli}}$$
-
+   
 Keterangan:
 
 - $M$ adalah matriks augmented yang digunakan selama proses eliminasi.
