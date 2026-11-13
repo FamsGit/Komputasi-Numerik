@@ -44,24 +44,20 @@ Tujuan penyelesaian adalah memperoleh nilai $x$, $y$, dan $z$ yang memenuhi keti
 
 Metode Eliminasi Gauss dengan *Partial Pivoting* dilakukan melalui tahapan berikut:
 
-1. Membentuk matriks augmented $M=[A\mid b]$ dengan menggabungkan matriks koefisien dan vektor konstanta.
-2. Menentukan elemen pivot pada setiap kolom dengan mencari nilai absolut terbesar dari baris aktif hingga baris terakhir.
-3. Menukar posisi baris aktif dengan baris yang memiliki elemen pivot terbesar apabila diperlukan.
-4. Menghitung faktor eliminasi menggunakan rumus:
+1. Menghitung faktor eliminasi menggunakan rumus:
 
-   $$
-   m_{ik}=\frac{M[i,k]}{M[k,k]}
-   $$
+   $$m_{ik} = \frac{M[i,k]}{M[k,k]}$$
+3. Menggunakan faktor eliminasi untuk mengubah elemen di bawah pivot menjadi nol melalui operasi baris:
 
-5. Menggunakan faktor eliminasi untuk mengubah elemen di bawah pivot menjadi nol melalui operasi baris:
+   $$M[i,j] = M[i,j] - m_{ik} \times M[k,j]$$
+4. Mengulangi proses eliminasi hingga terbentuk matriks segitiga atas.
+5. Menghitung nilai variabel dari baris terakhir menuju baris pertama melalui substitusi mundur.
+6. Memeriksa ketepatan hasil dengan menghitung residual menggunakan matriks dan vektor konstanta asli:
 
-   $$
-   M[i,j]=M[i,j]-m_{ik}\times M[k,j]
-   $$
-
-6. Mengulangi proses eliminasi hingga terbentuk matriks segitiga atas.
-7. Menghitung nilai variabel dari baris terakhir menuju baris pertama melalui substitusi mundur.
-8. Memeriksa ketepatan hasil dengan menghitung residual menggunakan matriks dan vektor konstanta asli:
+   $$r = A_{\text{asli}}x - b_{\text{asli}}$$
+7. Mengulangi proses eliminasi hingga terbentuk matriks segitiga atas.
+8. Menghitung nilai variabel dari baris terakhir menuju baris pertama melalui substitusi mundur.
+9. Memeriksa ketepatan hasil dengan menghitung residual menggunakan matriks dan vektor konstanta asli:
 
    $$
    r=A_{\text{asli}}x-b_{\text{asli}}
@@ -311,36 +307,23 @@ $$
 r=A_{\text{asli}}x-b_{\text{asli}}
 $$
 
-Dengan solusi yang diperoleh:
+Dengan solusi pendekatan $x = [1, 2, 3]^T$, perhitungan residual adalah:
 
-$$
-r=
 \begin{bmatrix}
-4&1&-1\\
-2&5&1\\
-1&-1&3
-\end{bmatrix}
+3\
+15\
+8
+\end{bmatrix}\
+&=
 \begin{bmatrix}
-1\\2\\3
-\end{bmatrix}
--
-\begin{bmatrix}
-3\\15\\8
-\end{bmatrix}
-$$
-
-Hasilnya:
-
-$$
-r=
-\begin{bmatrix}
-0\\
-0\\
+0\
+0\
 0
 \end{bmatrix}
+\end{aligned}
 $$
 
-Residual bernilai nol untuk ketiga persamaan. Hal ini menunjukkan bahwa solusi yang diperoleh memenuhi sistem persamaan linear pada contoh tersebut.
+Hasil residual adalah vektor nol. Hal ini menunjukkan bahwa solusi yang diperoleh memenuhi sistem persamaan linear tersebut.
 
 ## 8. Catatan Batas Metode
 
