@@ -59,9 +59,7 @@ Metode Eliminasi Gauss dengan *Partial Pivoting* dilakukan melalui tahapan berik
 8. Menghitung nilai variabel dari baris terakhir menuju baris pertama melalui substitusi mundur.
 9. Memeriksa ketepatan hasil dengan menghitung residual menggunakan matriks dan vektor konstanta asli:
 
-   $$
-   r=A_{\text{asli}}x-b_{\text{asli}}
-   $$
+   $$r = A_{\text{asli}}x - b_{\text{asli}}$$
 
 Keterangan:
 
@@ -299,31 +297,63 @@ Seluruh persamaan menghasilkan nilai yang sama dengan konstanta pada ruas kanan.
 
 ### 7.2 Perhitungan Residual
 
-Residual digunakan untuk mengukur selisih antara hasil substitusi solusi dan vektor konstanta awal.
+Dengan solusi yang diperoleh, yaitu x = [1, 2, 3]ᵀ, residual dihitung menggunakan matriks dan vektor konstanta asli.
 
-Rumus residual:
+**Langkah 1. Kalikan matriks dengan vektor solusi.**
 
 $$
-r=A_{\text{asli}}x-b_{\text{asli}}
-$$
-
-Dengan solusi pendekatan $x = [1, 2, 3]^T$, perhitungan residual adalah:
-
+A x =
 \begin{bmatrix}
-3\
-15\
+4 & 1 & -1 \\
+2 & 5 & 1 \\
+1 & -1 & 3
+\end{bmatrix}
+\begin{bmatrix}
+1 \\
+2 \\
+3
+\end{bmatrix}
+=
+\begin{bmatrix}
+3 \\
+15 \\
 8
-\end{bmatrix}\
-&=
+\end{bmatrix}
+$$
+
+**Langkah 2. Kurangkan dengan vektor konstanta asli.**
+
+$$
+r = A x - b
+$$
+
+$$
+r =
 \begin{bmatrix}
-0\
-0\
+3 \\
+15 \\
+8
+\end{bmatrix}
+-
+\begin{bmatrix}
+3 \\
+15 \\
+8
+\end{bmatrix}
+$$
+
+**Langkah 3. Hasil residual.**
+
+$$
+r =
+\begin{bmatrix}
+0 \\
+0 \\
 0
 \end{bmatrix}
-\end{aligned}
 $$
 
-Hasil residual adalah vektor nol. Hal ini menunjukkan bahwa solusi yang diperoleh memenuhi sistem persamaan linear tersebut.
+Hasil residual merupakan vektor nol. Artinya, solusi x = [1, 2, 3]ᵀ memenuhi sistem persamaan linear tersebut.
 
 ## 8. Catatan Batas Metode
 
