@@ -234,7 +234,7 @@ $$
 
 Nilai fungsi pada pendekatan akar akan mendekati nol.
 
-Dengan batas galat interval sebagai kriteria penghentian, proses dapat mencapai toleransi \(10^{-6}\) dalam 20 iterasi pada contoh ini.
+Dengan batas galat interval sebagai kriteria penghentian, metode Bisection dapat mencapai toleransi $10^{-6}$ dalam 20 iterasi pada contoh ini.
 
 Hasil akhir dapat sedikit berbeda apabila kriteria penghentian atau toleransi yang digunakan berbeda.
 
@@ -264,8 +264,8 @@ Apabila instruksi dosen secara khusus meminta penyelesaian sistem nonlinear mult
 
 Metode Bisection merupakan metode numerik untuk mencari pendekatan akar persamaan nonlinear satu variabel dengan membagi interval yang mengapit akar menjadi dua bagian secara berulang.
 
-Berdasarkan contoh \(f(x)=x^3+2x-7\) pada interval awal \([1,2]\), diperoleh pendekatan akar sekitar \(1{,}568946\).
+Berdasarkan contoh \(f(x)=x^3+2x-7\) pada interval awal \([1,2]\), diperoleh pendekatan akar sekitar **1,568946**.
 
-Dengan menggunakan toleransi \(10^{-6}\), metode ini dapat menghasilkan pendekatan akar dengan batas galat yang sesuai setelah 20 iterasi apabila kriteria batas galat interval digunakan.
+Dengan menggunakan toleransi \(10^{-6}\), metode Bisection dapat menghasilkan pendekatan akar dengan batas galat yang memenuhi toleransi setelah 20 iterasi, apabila menggunakan kriteria batas galat interval.
 
 Dengan demikian, metode Bisection berhasil digunakan untuk menyelesaikan contoh pencarian akar persamaan nonlinear tersebut.
