@@ -296,59 +296,33 @@ Dengan solusi yang diperoleh, yaitu x = [1, 2, 3]ᵀ, residual dihitung mengguna
 
 **Langkah 1. Kalikan matriks dengan vektor solusi.**
 
-$$
-Ax =
-\begin{bmatrix}
-4 & 1 & -1 \\
-2 & 5 & 1 \\
-1 & -1 & 3
-\end{bmatrix}
-\begin{bmatrix}
-1 \\
-2 \\
-3
-\end{bmatrix}
-=
-\begin{bmatrix}
-3 \\
-15 \\
-8
-\end{bmatrix}
-$$
+Diketahui solusi x = (1, 2, 3).
+
+Perhitungan setiap baris:
+
+- Baris pertama: (4 × 1) + (1 × 2) + (-1 × 3) = 3
+- Baris kedua: (2 × 1) + (5 × 2) + (1 × 3) = 15
+- Baris ketiga: (1 × 1) + (-1 × 2) + (3 × 3) = 8
+
+Dengan demikian, hasil perkalian matriks A dengan vektor solusi adalah:
+
+Ax = (3, 15, 8)
 
 **Langkah 2. Kurangkan hasil perkalian dengan vektor konstanta asli.**
 
-$$
+Rumus residual:
+
 r = Ax - b
-$$
 
-$$
-r =
-\begin{bmatrix}
-3 \\
-15 \\
-8
-\end{bmatrix}
--
-\begin{bmatrix}
-3 \\
-15 \\
-8
-\end{bmatrix}
-$$
+Substitusikan hasil perhitungan:
 
-**Langkah 3. Peroleh hasil residual.**
+r = (3, 15, 8) - (3, 15, 8)
 
-$$
-r =
-\begin{bmatrix}
-0 \\
-0 \\
-0
-\end{bmatrix}
-$$
+**Langkah 3. Hitung hasil residual.**
 
-Hasil residual merupakan vektor nol. Hal ini menunjukkan bahwa solusi x = [1, 2, 3] memenuhi sistem persamaan linear tersebut.
+r = (0, 0, 0)
+
+Hasil residual adalah vektor nol. Hal ini menunjukkan bahwa solusi x = (1, 2, 3) memenuhi sistem persamaan linear tersebut.
 
 ## 8. Catatan Batas Metode
 
