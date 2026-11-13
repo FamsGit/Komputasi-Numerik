@@ -297,7 +297,7 @@ Dengan solusi yang diperoleh, yaitu x = [1, 2, 3]ᵀ, residual dihitung mengguna
 **Langkah 1. Kalikan matriks dengan vektor solusi.**
 
 $$
-A x =
+Ax =
 \begin{bmatrix}
 4 & 1 & -1 \\
 2 & 5 & 1 \\
@@ -316,10 +316,10 @@ A x =
 \end{bmatrix}
 $$
 
-**Langkah 2. Kurangkan dengan vektor konstanta asli.**
+**Langkah 2. Kurangkan hasil perkalian dengan vektor konstanta asli.**
 
 $$
-r = A x - b
+r = Ax - b
 $$
 
 $$
@@ -337,7 +337,7 @@ r =
 \end{bmatrix}
 $$
 
-**Langkah 3. Hasil residual.**
+**Langkah 3. Peroleh hasil residual.**
 
 $$
 r =
@@ -348,7 +348,7 @@ r =
 \end{bmatrix}
 $$
 
-Hasil residual merupakan vektor nol. Artinya, solusi x = [1, 2, 3]ᵀ memenuhi sistem persamaan linear tersebut.
+Hasil residual merupakan vektor nol. Hal ini menunjukkan bahwa solusi x = [1, 2, 3] memenuhi sistem persamaan linear tersebut.
 
 ## 8. Catatan Batas Metode
 
