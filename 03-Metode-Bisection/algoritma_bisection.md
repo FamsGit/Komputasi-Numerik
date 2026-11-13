@@ -309,6 +309,8 @@ Nilai fungsi tersebut mendekati nol. Perlu diperhatikan bahwa nilai $|f(x_{20})|
 
 ## 8. Verifikasi Hasil
 
+## 8. Verifikasi Hasil
+
 Verifikasi dilakukan dengan dua cara:
 
 1. **Memeriksa nilai fungsi.** Masukkan pendekatan akar ke dalam fungsi awal:
@@ -317,7 +319,13 @@ Verifikasi dilakukan dengan dua cara:
    f(x)=x^3+2x-7
    $$
 
-   Hasilnya seharusnya mendekati nol. Pada iterasi ke-20, diperoleh nilai fungsi sekitar $-0{,}000004864578$.
+   Pada iterasi ke-20, diperoleh nilai fungsi sekitar:
+
+   $$
+   f(x_{20})\approx-0{,}000004864578
+   $$
+
+   Nilai tersebut mendekati nol sehingga menunjukkan bahwa pendekatan akar yang diperoleh sudah cukup baik.
 
 2. **Memeriksa batas galat interval.** Pastikan batas galat pendekatan akar sudah lebih kecil atau sama dengan toleransi yang ditentukan.
 
@@ -325,7 +333,7 @@ Verifikasi dilakukan dengan dua cara:
    E_{20}\approx9{,}536743\times10^{-7}
    $$
 
-   Nilai tersebut lebih kecil daripada toleransi $10^{-6}$ sehingga pendekatan akar telah memenuhi kriteria ketelitian yang digunakan.
+   Karena nilai batas galat lebih kecil daripada toleransi $10^{-6}$, pendekatan akar telah memenuhi kriteria ketelitian yang digunakan.
 
 ## 9. Catatan Batas Metode
 
