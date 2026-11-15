@@ -80,9 +80,9 @@ $$
 
 ## Repository Structure
 
-```text
 Komputasi-Numerik/
 │
+├── .gitignore
 ├── README.md
 │
 ├── 01-Identitas/
@@ -100,9 +100,9 @@ Komputasi-Numerik/
 │   └── prompt_ai.txt
 │
 └── 05-Video-Presentasi/
-    ├── penjelasan_spl.mp4
-    └── penjelasan_bisection.mp4
-```
+    ├── PETUNJUK_VIDEO.md
+    ├── SPL-Eliminasi-Gauss.mp4
+    └── SPNL-Bisection.mp4
 
 ## Technologies
 
@@ -139,6 +139,8 @@ Melalui proyek ini, pembelajaran difokuskan pada:
 - **GitHub Repository:** [FamsGit/Komputasi-Numerik](https://github.com/FamsGit/Komputasi-Numerik)
 - **LinkedIn:** [Muhammad Fahmi Amrulloh](https://www.linkedin.com/in/fahmi-amrul/)
 - **Google Colab:** Notebook tersedia melalui direktori proyek masing-masing.
+- **Video Presentation Guide:** [Petunjuk Video](05-Video-Presentasi/PETUNJUK_VIDEO.md)
+- **Video Presentations:** [Google Drive](https://drive.google.com/drive/folders/1c5leSJKcPWhSW0mMvhpTMceTWJzo-Ced?usp=sharing)
 
 ## Disclaimer
 
