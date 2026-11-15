@@ -80,6 +80,7 @@ $$
 
 ## Repository Structure
 
+```text
 Komputasi-Numerik/
 │
 ├── .gitignore
@@ -103,6 +104,7 @@ Komputasi-Numerik/
     ├── PETUNJUK_VIDEO.md
     ├── SPL-Eliminasi-Gauss.mp4
     └── SPNL-Bisection.mp4
+```
 
 ## Technologies
 
