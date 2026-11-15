@@ -1,43 +1,204 @@
 DOKUMENTASI PROMPT AI — TUGAS UTS KOMPUTASI NUMERIK
 Nama: Muhammad Fahmi Amrulloh
 NIM: 202511420045
+Program Studi: Teknik Informatika
+Repository: https://github.com/FamsGit/Komputasi-Numerik
 
-PENTING
-File ini adalah catatan prompt yang benar-benar muncul dalam percakapan penyusunan tugas hingga versi awal repository ini. Tambahkan setiap prompt baru yang benar-benar dikirim kepada AI. Jangan mengklaim prompt yang tidak pernah digunakan.
+================================================================
+CATATAN PENCATATAN
+================================================================
 
-[01] PROMPT BIMBINGAN TUGAS (11 November 2026)
-Bantu bimbing aku mengerjakan tugas untuk UTS ini dong gpt
+File ini mencatat penggunaan AI selama pengerjaan UTS Komputasi Numerik, mulai dari perencanaan tugas, penyusunan algoritma dan notebook, dokumentasi GitHub, pembuatan video presentasi, hingga penautan repository ke LinkedIn.
+
+Prompt yang masih tersedia secara lengkap ditulis sebagai kutipan. Untuk percakapan lanjutan yang tidak tersimpan sebagai teks utuh, permintaannya dicatat sebagai ringkasan dan tidak diklaim sebagai kalimat asli. Pemisahan ini dilakukan agar dokumentasi tetap transparan dan tidak mengarang prompt verbatim.
+
+================================================================
+A. PROMPT VERBATIM YANG TERSEDIA
+================================================================
+
+[01] BIMBINGAN AWAL TUGAS UTS
+Tanggal: 11 November 2026
+
+"Bantu bimbing aku mengerjakan tugas untuk UTS ini dong gpt"
+
+Instruksi tugas yang diberikan:
 
 Tugas 1:
-1 Buat akun Git Hub atas nama Anda sendiri dan buat Repository "Komputasi Numerik"
-2 Buat akun Google Colaboration Research atas nama Anda sendiri
-3 Buat akun LinkedIn atas nama Anda sendiri
-4 Simpan Link2 akun2 Anda tersebut pada file .txt dan simpan pada Repository "Komputasi Numerik" di Github
-5 Buat Algoritma Penyelesaian Sistem Persamaan Linear 3 variabel dan simpan pada Repository "Komputasi Numerik" di Github
-6 Buat kode Python pada Google Colab berdasarkan nomor 5, dan simpan pada Repository "Komputasi Numerik" di Github. Pastikan kode tertata dalam cell-cell sehingga bisa di Running pada tiap cell.
-7 Edit kode Python tersebut di Github dengan menambahkan keterangan detail penjelasan tiap baris kode atau cell.
-8 Nomor 5-7 Anda bisa meminta bantuan platform AI andalan masing2
-9 Simpan seluruh prompt AI yang Anda gunakan dalam sebuah file .txt dan simpan pada Repository "Komputasi Numerik" di Github
-10 Buat video penjelasan no. 5-8 dengan total durasi maksimal 5 menit : dengan wajah dan suara Anda sedang berbicara menjelaskan selama minimal 15 detik, sisanya gambar slide layar dan tampilan kode di Google Colab + suara penjelasan Anda tanpa menampilkan wajah.
-11 Simpan video dalam bentuk .mp4 dan simpan pada Repository "Komputasi Numerik" di Github
-12 Buat langkah yang sama mulai no.5-10 untuk Penyelesaian Sistem Persamaan Non Linear metode Bisection
-13 Simpan link Repository "Komputasi Numerik" di Github Anda pada akun LnkedIn Anda sebagai portofolio
+1. Buat akun Git Hub atas nama Anda sendiri dan buat Repository "Komputasi Numerik".
+2. Buat akun Google Colaboration Research atas nama Anda sendiri.
+3. Buat akun LinkedIn atas nama Anda sendiri.
+4. Simpan Link2 akun2 Anda tersebut pada file .txt dan simpan pada Repository "Komputasi Numerik" di Github.
+5. Buat Algoritma Penyelesaian Sistem Persamaan Linear 3 variabel dan simpan pada Repository "Komputasi Numerik" di Github.
+6. Buat kode Python pada Google Colab berdasarkan nomor 5, dan simpan pada Repository "Komputasi Numerik" di Github. Pastikan kode tertata dalam cell-cell sehingga bisa di Running pada tiap cell.
+7. Edit kode Python tersebut di Github dengan menambahkan keterangan detail penjelasan tiap baris kode atau cell.
+8. Nomor 5-7 Anda bisa meminta bantuan platform AI andalan masing2.
+9. Simpan seluruh prompt AI yang Anda gunakan dalam sebuah file .txt dan simpan pada Repository "Komputasi Numerik" di Github.
+10. Buat video penjelasan no. 5-8 dengan total durasi maksimal 5 menit: dengan wajah dan suara Anda sedang berbicara menjelaskan selama minimal 15 detik, sisanya gambar slide layar dan tampilan kode di Google Colab + suara penjelasan Anda tanpa menampilkan wajah.
+11. Simpan video dalam bentuk .mp4 dan simpan pada Repository "Komputasi Numerik" di Github.
+12. Buat langkah yang sama mulai no. 5-10 untuk Penyelesaian Sistem Persamaan Non Linear metode Bisection.
+13. Simpan link Repository "Komputasi Numerik" di Github Anda pada akun LinkedIn Anda sebagai portofolio.
 
-[02] PROMPT AUDIT DAN REVISI REPOSITORY (11 November 2026)
+[02] AUDIT DAN REVISI REPOSITORY
+Tanggal: 11 November 2026
+
 "eh gpt dulu udh pernah buat ingat ga kamu, https://github.com/FamsGit/Komputasi-Numerik nih coba cek. Revisi jika ada yang salah, lalu tambah sesuai ketentuan dosen"
 
-[03] CATATAN PENGEMBANGAN
-Rancangan algoritma dan notebook dalam paket revisi ini disusun untuk memenuhi butir tugas di atas. Jika selama penyempurnaan ada prompt tambahan yang dikirim ke AI (misalnya untuk mengubah contoh kasus, memperbaiki kode, atau menyesuaikan format dosen), salin prompt tersebut ke file ini dengan tanggal dan tujuan penggunaannya.
+[03] PEMERIKSAAN PROFIL LINKEDIN
+Tanggal: 11 November 2026
 
-
-[04] PROMPT PEMERIKSAAN LINKEDIN (11 November 2026)
 "https://www.linkedin.com/in/fahmi-amrul/ kamu cek ini akun linkedin ku, beri tahu jika ada yang kurang aku lengkapi lagi"
 
-[05] PROMPT MOTO PROFESIONAL LINKEDIN (11 November 2026)
+[04] MOTO PROFESIONAL LINKEDIN
+Tanggal: 11 November 2026
+
 "moto profesional isi apa"
 
-[06] PROMPT STATUS AKUN DAN LANGKAH SELANJUTNYA (11 November 2026)
+[05] STATUS AKUN DAN LANGKAH SELANJUTNYA
+Tanggal: 11 November 2026
+
 "Status akun saya untuk tugas UTS: GitHub sudah, Google/Colab sudah, LinkedIn sudah. Bimbing saya ke langkah berikutnya."
 
-Pembaruan berikutnya:
-Jika meminta AI mengubah algoritma, kode, atau dokumen, tambahkan prompt lengkap yang dikirim beserta tanggal dan file/komponen yang diubah. Jika prompt sangat panjang, simpan teks utuh atau lampirkan file sumbernya; jangan hanya menyimpan ringkasan.
+[06] PERMINTAAN MEMODERNISASI README
+Tanggal: sekitar 10–11 November 2026
+
+"eh sebelum lanjut bisa ga ya kamu buat lebih modern dan berkelas gitu readme nya hehe"
+
+[07] PERMINTAAN MENYINGKAT NARASI VIDEO SPL
+Tanggal: 14 November 2026
+
+"Eh bisa di singkat ga? Yang tadi SPL aja sampai 9 menit woi cape ngakalin biar jadi 5 menit nya aku"
+
+[08] PERMINTAAN REVISI DOKUMENTASI PROMPT AI
+Tanggal: 15 November 2026
+
+"tinggal prompt ai nya, revisi karena sudah banyak banget aku chat sama kamu"
+
+================================================================
+B. RINGKASAN PERMINTAAN LANJUTAN BERDASARKAN RIWAYAT
+================================================================
+
+Catatan: Bagian ini merangkum topik dan tujuan permintaan lanjutan yang tercatat selama percakapan. Ini bukan kutipan kata-per-kata dari setiap pesan.
+
+[09] PERENCANAAN DAN STRUKTUR REPOSITORY
+Tujuan:
+- Menyusun tahapan pengerjaan UTS secara berurutan.
+- Membuat struktur folder repository untuk identitas, algoritma, notebook, prompt AI, dan video presentasi.
+- Mengganti nama folder menjadi 02-SPL-Eliminasi-Gauss dan 03-SPNL-Bisection.
+- Memperbarui referensi path dan tautan setelah perubahan nama folder.
+- Menambahkan dan memeriksa file .gitignore.
+- Memastikan seluruh berkas tersimpan di repository GitHub.
+
+[10] ALGORITMA DAN NOTEBOOK SPL — ELIMINASI GAUSS
+Tujuan:
+- Menyusun algoritma penyelesaian sistem persamaan linear tiga variabel menggunakan Eliminasi Gauss dengan Partial Pivoting.
+- Membuat notebook Python di Google Colab dengan cell yang terstruktur.
+- Menambahkan penjelasan konsep, algoritma, fungsi, dan kode pada setiap bagian notebook.
+- Menampilkan matriks augmented dan tahapan eliminasi.
+- Menjelaskan pemilihan pivot berdasarkan nilai absolut terbesar.
+- Menampilkan proses eliminasi maju dan substitusi mundur.
+- Memeriksa solusi dan residual.
+
+Contoh sistem persamaan:
+4x + y - z = 3
+2x + 5y + z = 15
+x - y + 3z = 8
+
+Hasil:
+x = 1, y = 2, z = 3, dengan residual nol. Pada contoh ini tidak terjadi pertukaran baris karena pivot yang terpilih sudah berada pada baris aktif.
+
+[11] ALGORITMA DAN NOTEBOOK SPNL — BISECTION
+Tujuan:
+- Menyusun algoritma pencarian akar persamaan nonlinear satu variabel menggunakan metode Bisection.
+- Membuat notebook Python dengan penjelasan teori, parameter, fungsi utama, proses iterasi, dan verifikasi.
+- Menampilkan tabel iterasi dan perubahan interval.
+- Menjelaskan syarat perubahan tanda, perhitungan titik tengah, pembaruan interval, serta kriteria penghentian berdasarkan batas galat interval.
+- Memastikan penjelasan hasil tidak menyamakan batas galat interval dengan nilai fungsi pada pendekatan akar.
+
+Contoh yang digunakan:
+f(x) = x^3 + 2x - 7
+Interval awal = [1, 2]
+Toleransi = 10^-6
+Pendekatan akar setelah 20 iterasi sekitar 1.5689458847.
+
+[12] PENJELASAN KODE DAN PERBAIKAN TAMPILAN NOTEBOOK
+Tujuan:
+- Menambahkan keterangan detail pada setiap cell dan bagian kode Python.
+- Memperbaiki penjelasan Markdown dan tampilan rumus matematika di Google Colab.
+- Memastikan notebook dapat dijalankan dan hasilnya sesuai dengan algoritma.
+- Memastikan tautan notebook Google Colab dan referensinya di GitHub benar.
+
+[13] README DAN DOKUMENTASI PROJECT
+Tujuan:
+- Memodernisasi README agar lebih terstruktur, informatif, dan profesional.
+- Menampilkan gambaran proyek, modul, teknologi, tujuan pembelajaran, informasi proyek, dan struktur repository.
+- Memperbaiki struktur direktori agar ditampilkan sebagai code block Markdown.
+- Memperbarui nama file dan folder agar sesuai dengan repository terbaru.
+- Menambahkan tautan menuju petunjuk video dan folder video Google Drive.
+
+[14] VIDEO PRESENTASI SPL DAN BISECTION
+Tujuan:
+- Menyusun naskah pembukaan yang memperkenalkan nama, NIM, program studi, dan topik.
+- Menyusun narasi penjelasan SPL dan Bisection mengikuti urutan notebook.
+- Menyingkat narasi agar setiap video tidak melebihi 5 menit.
+- Menyusun narasi saat membuka repository GitHub dan menjalankan notebook melalui Google Colab.
+- Memastikan wajah dan suara sendiri tampil minimal 15 detik.
+- Menyusun urutan pembahasan tanpa penanda waktu yang kaku agar sesuai dengan durasi rekaman sebenarnya.
+- Menyusun dokumentasi PETUNJUK_VIDEO.md berdasarkan urutan aktual kedua video.
+
+[15] PENGATURAN REKAMAN DAN EDITING VIDEO
+Tujuan:
+- Mengatur OBS untuk merekam layar dan suara dengan tulisan serta kode yang tetap terbaca.
+- Memeriksa kualitas rekaman agar teks dan kode tidak buram atau pecah.
+- Membahas penggunaan Adobe Premiere Pro untuk memotong bagian layar yang tidak diperlukan, termasuk taskbar yang ikut terekam.
+- Mengekspor hasil akhir dalam format MP4.
+- Memastikan durasi dan kualitas kedua video sesuai ketentuan tugas.
+
+[16] UPLOAD VIDEO DAN PEMELIHARAAN REPOSITORY
+Tujuan:
+- Memasukkan SPL-Eliminasi-Gauss.mp4 dan SPNL-Bisection.mp4 ke folder 05-Video-Presentasi.
+- Memeriksa status Git, staging, commit, dan push.
+- Menangani penolakan push karena repository remote memiliki commit yang belum ada di lokal dengan fetch dan pull --rebase sebelum push ulang.
+- Memastikan kedua file video berhasil tersimpan di repository.
+- Membahas penggunaan Google Drive sebagai tautan pemutaran video karena preview MP4 pada halaman repository GitHub tidak selalu tersedia.
+
+[17] LINKEDIN SEBAGAI PORTOFOLIO
+Tujuan:
+- Memeriksa profil LinkedIn.
+- Menambahkan repository Komputasi Numerik pada bagian Sorotan/Featured.
+- Menyusun judul dan deskripsi singkat portofolio.
+- Memastikan tautan GitHub dapat dibuka dari profil LinkedIn.
+
+================================================================
+C. INFORMASI HASIL AKHIR PROJECT
+================================================================
+
+Repository GitHub:
+https://github.com/FamsGit/Komputasi-Numerik
+
+Folder video pada GitHub:
+https://github.com/FamsGit/Komputasi-Numerik/tree/main/05-Video-Presentasi
+
+Folder video pada Google Drive:
+https://drive.google.com/drive/folders/1c5leSJKcPWhSW0mMvhpTMceTWJzo-Ced?usp=sharing
+
+Profil LinkedIn:
+https://www.linkedin.com/in/fahmi-amrul/
+
+Notebook SPL:
+https://colab.research.google.com/drive/1hmpqC7lmC26_zGaPD7drH9UAfJjUoylS?usp=sharing
+
+Notebook Bisection:
+https://colab.research.google.com/drive/1gJqw6dNB_1iPKv47NP_-JfLdD87KnpXb?usp=sharing
+
+================================================================
+D. CATATAN PEMBARUAN
+================================================================
+
+Jika ada prompt AI baru yang digunakan untuk mengubah algoritma, kode, notebook, dokumentasi, atau hasil tugas:
+1. Tambahkan prompt tersebut ke file ini.
+2. Catat tanggal penggunaan.
+3. Catat tujuan prompt dan berkas yang terdampak.
+4. Pertahankan teks prompt asli jika masih tersedia.
+5. Jika hanya dapat dirangkum dari riwayat, beri label sebagai ringkasan dan jangan menyatakannya sebagai kutipan langsung.
+
+Dokumentasi ini disusun untuk mencatat penggunaan AI secara transparan selama proses pengerjaan tugas UTS Komputasi Numerik.
